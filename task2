@@ -28,8 +28,9 @@ int main()
 		}
 		else {
 			cout << "Вы отгадали число " << K << endl;
-			exit(0);
+			return 0;
 		}
 	}
 	cout << "Вы не отгадали число " << X;
+	return 0;
 }
